@@ -1,0 +1,66 @@
+form {
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'fantasy';
+  }
+
+  fieldset {
+    border: none;
+  }
+
+  legend {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    /*border: 1px solid #ccc;*/
+  }
+
+  input:focus {
+    outline: none;
+    border-color: white;
+  }
+
+  input:invalid {
+    border-color: rgb(83, 171, 218);
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(83, 171, 218);
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: rgb(99, 178, 231);
+  }
+
+  .error {
+    color: rgb(60, 198, 179);
+    font-weight: bold;
+  }
+
+  .success {
+    color: rgb(140, 241, 208);
+    font-weight: bold;
+  }
+  
+  body{
+    background-color: aquamarine;
+
+  }
